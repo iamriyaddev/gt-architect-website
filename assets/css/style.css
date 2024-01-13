@@ -156,8 +156,6 @@ section {
   background-color: #fff;
   z-index: 100;
   padding: 40px;
-  /* opacity: 0;
-  visibility: hidden; */
   transition: all 0.5s ease;
 }
 
