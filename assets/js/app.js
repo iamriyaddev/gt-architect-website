@@ -1,44 +1,51 @@
   // ---------------------------------------->
 // <------------------ Disabled Context Menu
 
-// document.addEventListener("contextmenu", function(riyad){
-//   riyad.preventDefault();
-// });
+document.addEventListener("contextmenu", function(riyad){
+  riyad.preventDefault();
+});
 
-// document.onkeydown = function (e){
-//   if(event.keyCode == 123){
-//     return false;
-//   }
+document.onkeydown = function (e){
+  if(event.keyCode == 123){
+    return false;
+  }
 
-//   if(e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)){
-//     return false;
-//   }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)){
+    return false;
+  }
 
-//   if(e.ctrlKey && e.keyCode == "C".charCodeAt(0)){
-//     return false;
-//   }
+  if(e.ctrlKey && e.keyCode == "C".charCodeAt(0)){
+    return false;
+  }
 
-//   if(e.ctrlKey && e.keyCode == "V".charCodeAt(0)){
-//     return false;
-//   }
+  if(e.ctrlKey && e.keyCode == "V".charCodeAt(0)){
+    return false;
+  }
 
-//   if(e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)){
-//     return false;
-//   }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)){
+    return false;
+  }
   
-//   if(e.ctrlKey && e.keyCode == "U".charCodeAt(0)){
-//     return false;
-//   }
-// }
+  if(e.ctrlKey && e.keyCode == "U".charCodeAt(0)){
+    return false;
+  }
+}
 
 // --------------------------------------------------->
 // <--------------------------------- Sticky Header Nav
 
-const header = document.querySelector(".navbar");
 
-window.addEventListener("scroll", function () {
-  header.classList[window.scrollY > 100 ? "add" : "remove"]("active");
-});
+
+// ---------------------------------------->
+// <---------------------------- Toggle Menu
+
+var NavLinks = document.getElementById("navLinks");
+function showMenu() {
+  NavLinks.style.right = "0";
+}
+function hideMenu() {
+  NavLinks.style.right = "-100%";
+}
 
 // --------------------------------------------------->
 // <-------------------------------- Goto Button Active

@@ -29,6 +29,18 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    .menu-bar{
+        display: block;
+    }
+    .menu-bar .menu-bar-icon{
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+
+    .menu-bar .menu-bar-icon:hover{
+        color: #ff0000;
+    }
     .container{
         padding: 0 4%;
     }
@@ -85,6 +97,18 @@
 }
 
 @media only screen and (max-width: 767px){
+    .menu-bar{
+        display: block;
+    }
+    .menu-bar .menu-bar-icon{
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+
+    .menu-bar .menu-bar-icon:hover{
+        color: #ff0000;
+    }
     .container{
         padding: 0 4%;
     }
