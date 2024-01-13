@@ -124,9 +124,6 @@
         width: 100%;
     }
 
-    section{
-        overflow-x: hidden;
-    }
     .footer-section .footer-content-wrapper {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
