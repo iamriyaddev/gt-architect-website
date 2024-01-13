@@ -1,0 +1,194 @@
+/* ------------------------------------ */
+/* 01. Responsive All Device                            
+/* ------------------------------------ */
+@media only screen and (min-width: 1200px) and (max-width: 1350px){
+    .container{
+        padding: 0 4%;
+    }
+
+    .header-section .header-img img{
+        width: 100%;
+    }
+
+    .feature-section .feature-img img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .container{
+        padding: 0 4%;
+    }
+    .header-section .header-img img{
+        width: 100%;
+    }
+
+    .feature-section .feature-img img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        padding: 0 4%;
+    }
+    .header-section .header-img img{
+        width: 100%;
+    }
+
+    .header-section .navbar .logo > a{
+        font-size: 26px !important;
+    }
+
+    .feature-section .feature-img img{
+        width: 100%;
+    }
+
+    .about-section .about-text h2 {
+        color: #727272;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .feature-section .feature-text {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .feature-section .feature-img {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .feature-section .feature-badge {
+        left: 27%;
+    }
+    .award-section .award-item {
+        flex-basis: 49%;
+        max-width: 49%;
+    }
+    .award-section .award-content-wrapper {
+        row-gap: 15px;
+    }
+    .sponsor-section .sponsor-content-wrapper {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .sponsor-item {
+        flex-basis: 33%;
+        max-width: 33%;
+    }
+    .footer-section .footer-content-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 60px;
+    }
+    .footer-section .footer-item .footer-social {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .container{
+        padding: 0 4%;
+    }
+    .header-section .header-img img{
+        width: 100%;
+    }
+
+    .header-section .navbar .logo > a{
+        font-size: 26px !important;
+    }
+
+    .feature-section .feature-img img{
+        width: 100%;
+    }
+
+    section{
+        overflow-x: hidden;
+    }
+    .footer-section .footer-content-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 60px;
+    }
+    .footer-section .footer-item .footer-social {
+        margin-bottom: 60px;
+    }
+    .footer-section .footer-logo > a {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .header-section .navbar .logo > a{
+        font-size: 26px;
+    }
+    .menu {
+        display: none;
+    }
+    .header-section .header-text h1 {
+        font-size: 46px;
+    }
+    .header-section .header-content-wrapper {
+        padding-top: 42px;
+    }
+    .header-section {
+        padding-bottom: 26px;
+    }
+    .about-section .about-img-group {
+        flex-basis: 100%;
+        max-width: 100%;
+        gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-section .about-text {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-top: 36px;
+    }
+    .feature-section .feature-text {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .feature-section {
+        padding: 40px 0;
+    }
+    .feature-section .feature-title-wrapper > h2 {
+        font-size: 36px;
+    }
+    .feature-section .feature-img {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .feature-section .feature-content-wrapper {
+        row-gap: 50px;
+    }
+    .feature-section .feature-badge {
+        bottom: -12%;
+        left: 5%;
+        width: 263px;
+        height: 158px;
+    
+    }
+    .feature-section .feature-badge h1 {
+        color: #fff;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 70px;
+    }
+
+    .award-section .award-item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .award-section .award-content-wrapper {
+        row-gap: 30px;
+    }
+    .sponsor-section .sponsor-content-wrapper {
+        flex-wrap: wrap;
+    }
+    .sponsor-item {
+        flex-basis: 48%;
+        max-width: 48%;
+    }
+    .sponsor-item img{
+        width: 100%;
+        padding: 15px;
+    }
+}
